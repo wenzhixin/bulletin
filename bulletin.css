@@ -13,6 +13,8 @@
 	float: left;
 	margin: 0 0 0 30px;
 	height: 23px;
+	overflow: hidden;
+	width: 100%;
 	background: url(bulletin.gif) no-repeat;
 }
 .bulletin li {
