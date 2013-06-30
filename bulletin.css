@@ -4,6 +4,7 @@
 	left: 0;
 	box-shadow: 10px 0 5px #000000;
 	opacity: 0.6;
+	filter:alpha(opacity=60); 
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
@@ -14,7 +15,8 @@
 	margin: 0 0 0 30px;
 	height: 23px;
 	overflow: hidden;
-	width: 100%;
+	left: 0;
+	right: 20px;
 	background: url(bulletin.gif) no-repeat;
 }
 .bulletin li {
@@ -33,4 +35,5 @@
 .bulletin .close {
 	float: right;
 	margin-right: 10px;
+	z-index: 1001;
 }
