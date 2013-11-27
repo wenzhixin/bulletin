@@ -4,7 +4,7 @@
 	left: 0;
 	box-shadow: 10px 0 5px #000000;
 	opacity: 0.6;
-	filter:alpha(opacity=60); 
+	filter: alpha(opacity=60);
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
